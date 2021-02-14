@@ -7,7 +7,7 @@ var scale = 10;
 function setup() {
    var myCanvas = createCanvas(400, 400, WEBGL);
    myCanvas.parent('#visualizer')
-  img = loadImage("nnd.jpg");
+  img = loadImage("https://freight.cargo.site/t/original/i/7d1ea14ca7adb2a5e365d8e934bbc9545bb255690e0205d41d41963594354739/nnd.jpg");
   img.loadPixels();
   fill(255);
   background(0);
